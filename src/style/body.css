@@ -169,7 +169,7 @@ p {
     font-size: 1em;
   }
   .aboutMe2 {
-    height: 800px;
+    height: 720px;
   }
   .aboutMe2 > p {
     font-size: 1em;
@@ -228,11 +228,12 @@ p {
   }
 
   .jokesReceh > h1 {
-    margin-top: 30px;
+    margin-top: 40px;
     font-size: 1.4em;
   }
 
   .jokesContainer > h3 {
+    margin-top: 25px;
     font-size: 25px;
     width: 90%;
   }

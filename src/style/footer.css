@@ -1,0 +1,38 @@
+footer {
+  height: 25vh;
+  background-color: #fca311;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > h1 {
+  color: black;
+
+  text-align: left;
+  border-top: solid medium black;
+  border-bottom: solid medium black;
+}
+
+.socialPhoto {
+  margin-left: 30px;
+  height: 50px;
+  width: 50px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  footer {
+    height: 20vh;
+  }
+
+  footer > h1 {
+    border-top: solid medium black;
+    border-bottom: solid medium black;
+    text-decoration: none;
+    width: 45%;
+  }
+
+  .socialPhoto {
+    margin-left: 0;
+  }
+}

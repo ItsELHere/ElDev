@@ -1,0 +1,85 @@
+header {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+}
+
+.title {
+  width: 40%;
+  height: 200px;
+  text-align: left;
+  text-shadow: 2px 2px grey;
+}
+
+.title > h1 {
+  margin-top: 20px;
+  margin-left: 20px;
+  display: block;
+  font-size: 3em;
+}
+
+.photoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  width: 450px;
+  border: solid whitesmoke;
+  border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+}
+
+.blink {
+  animation: 2s linear infinite condemned_blink_effect;
+}
+
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+.photoContainer > .imanuelPhoto {
+  height: 350px;
+  width: 350px;
+  border: solid white;
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  header {
+    display: block;
+  }
+
+  .title {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title > h1 {
+    font-size: 2em;
+  }
+
+  .photoContainer {
+    margin-left: 5%;
+    margin-top: 10px;
+    height: 370px;
+    width: 90%;
+  }
+
+  .photoContainer > .imanuelPhoto {
+    height: 300px;
+    width: 300px;
+  }
+}

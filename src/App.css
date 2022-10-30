@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  background-color: #14213d;
+  font-family: "Monolisa", Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: #e5e5e5;
+  font-style: "Monolisa";
+}
+
+p {
+  font-style: sans-serif;
+  color: #e5e5e5;
+}
